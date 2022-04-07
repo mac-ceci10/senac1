@@ -1,0 +1,93 @@
+*{
+  margin: 0px;
+  padding: 0px;
+ }
+ body{
+   background-image: url("../IMAGE/canyon2.jpg");
+   background-position: 100% 100%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+   }
+
+input{
+  height: 60px;
+  width: 420px;
+  margin: 7px;
+  border-radius: 26px;
+  text-align: center; 
+  border: 1px solid whitesmoke;
+  font-size: 18pt;
+  padding: 10px 10px;
+  background-color: rgba(255,255,255,0.1);
+  color: white;
+  font-weight: bold;
+  outline: none;
+  border-bottom: 5px solid rgb(245, 127, 1);
+  }
+
+div#corpo-form{
+  /*background-color:red;*/
+  width:65%;
+  margin: auto;
+}
+
+div#corpo-form h1{
+  text-align: center;
+  font-size: 28pt;
+  color: brown;
+  padding: 80px;  
+}
+
+div#corpo-form h2{
+  text-align: center;
+  font-size: 12pt;
+  padding: 10px;  
+}
+input[type=submit]{
+  display: block;
+  height: auto;
+  margin: auto;
+  background-color: FF0066;
+  width:220px;
+  text-align: center;
+  font-weight: bold;
+  font-size:25pt;
+  border: none;
+  cursor: pointer;
+  border-bottom: 5px solid rgb(139, 18, 18);
+}
+input[type=submit]:hover{
+  background-color: rgb(245, 19, 68);
+  width:170px;
+  font-weight: bold;
+  font-size:22pt;
+  box-shadow: 0px 0px 10px;
+  transform: translate(0px, -3px);
+  transition: transform 0.5s;
+}
+::-webkit-input-placeholder {
+color:#FFF;
+}
+::-moz-placeholder{
+  color:#FFF;
+}
+:-moz-placeholder{
+  color:#FFF;
+}
+:-ms-input-placeholder{
+  color:#FFF;
+}
+input:hover{
+  background-color: rgba(255,255,255,0);
+  transform: translate(0px, -7px);
+  transition: transform 0.5s;
+}
+h1:hover{
+  background-color: rgba(255,255,255,0);
+  transform: translate(0px, -10px);
+  transition: transform 0.3s;
+}
+h2:hover{
+  background-color: rgba(255,255,255,0);
+  transform: translate(0px, -3px);
+  transition: transform 0.5s;
+}
